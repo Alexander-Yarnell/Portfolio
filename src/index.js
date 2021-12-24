@@ -11,6 +11,7 @@ import About from "./pages/About";
 
 //css
 import './css/nav.css';
+import './css/home.css';
 
 function App() {
   return (

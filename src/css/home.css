@@ -1,0 +1,73 @@
+.container {
+  display: grid;
+  position: absolute;
+  background-color: #242a3d;
+  height: 100%;
+  width: 100vw;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 15% 85%;
+  color: #707793;
+  grid-gap: 0;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: 7.5rem 10rem;
+  grid-template-rows: repeat(2, 3rem);
+  grid-gap: 0;
+}
+
+.title-beginning {
+  grid-column: 1/ 3;
+  grid-row: 1;
+  font-size: 1.5rem;
+}
+
+.title-middle {
+  font-size: 1.5rem;
+  color: #3bba9c;
+  grid-row: 2;
+}
+
+.title-end {
+  font-size: 1.5rem;
+  grid-row: 2;
+}
+
+.quote {
+  display: grid;
+  font-size: 75%;
+  grid-template-rows: repeat(3, 10%);
+  grid-gap: 0;
+  grid-row: 2;
+}
+.quote-highlight {
+  font-size: 100%;
+  color: #3bba9c;
+}
+
+.quote-beginning {
+}
+.quote-middle {
+}
+.quote-end {
+  margin: 0;
+}
+
+.image {
+  margin-bottom: 0px;
+  width: 13rem;
+  height: 15rem;
+  grid-area: "img";
+}
+
+.projects-background {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  background-color: white;
+}
